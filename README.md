@@ -35,9 +35,11 @@ project/
     |   |   |   |   firstScript.sh
     |   |   |   |   README.md
     |   |   |
-    |   |   └───2_Variables/ [TODO]
-    |   |       |   variables.sh [TODO]
-    |   |   
+    |   |   └───2_Variables/
+    |   |       |   variables.sh 
+    |   |       |   var_types.sh    
+    |   |       |   scopes.sh 
+    |   |       |   README.MD
     |   |
     |   └───2_Intermediate/   
     |   |        

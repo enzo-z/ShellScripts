@@ -1,20 +1,21 @@
 # The very basics of Shell Scripting
 Here I will try to cover what are the fundamentals for creating a shell script, as well as discussing basic notions which can come in handy.
 
-# Starting with
+# Getting Started
 To run scripts in your terminal, you can do:
 
-`touch <name_of_file>.sh` to create the file
+> `touch <name_of_file>.sh` to create the file for your script
 
 then 
-`chmod +x ./<name_of_file>.sh` 
-in the same directory as the file, to make the file executable by changing his modifier and giving him permission to be executed by your shell
+> `chmod +x ./<name_of_file>.sh` in the same directory as the file 
+
+This makes the file executable by changing his modifier and giving him permission to be executed by your shell
 
 Now you can run by simply typing: 
 
-`./<name_of_file>.sh`
+> `./<name_of_file>.sh`
 
-that will call the script and execute it!
+That will call the script and execute it!
 
 > :warning: Each directory has an README.md with the explanation behind that script.
 
@@ -34,7 +35,10 @@ Your shell script can do the same things as your iteractive shell script (if you
 
 To see which shell you are using at your terminal, you can open your terminal and type:
 
->`echo $SHELL` for getting the enviroment variable defined for your shell
-or 
+>`echo $SHELL` 
+
+for getting the enviroment variable defined for your shell, or
+
 > `ps -p $$`
-for getting the process that is being executed
+
+for getting the process that is being executed.
